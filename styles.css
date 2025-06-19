@@ -97,15 +97,16 @@ p {
     transform: scale(1.05);
 }
 
-button {
-    margin-top: 30px;
+.music-button {
+    display: block;
+    margin: -20px auto 30px;
     padding: 12px 24px;
     font-size: 1em;
     font-weight: 500;
     background: linear-gradient(to right, #f7a1c4, #e3c4f9);
     color: white;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
     transition: background 0.3s ease, transform 0.3s ease;
