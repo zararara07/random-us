@@ -96,6 +96,20 @@ p {
 .project-img:hover {
     transform: scale(1.05);
 }
+button {
+    margin-top: -20px; /* dari -50px → ubah jadi -20px supaya naik tapi tidak terlalu nempel */
+    margin-bottom: 30px; /* beri jarak ke bawah biar nggak nempel ke elemen selanjutnya */
+    padding: 12px 24px;
+    font-size: 1em;
+    font-weight: 500;
+    background: linear-gradient(to right, #f7a1c4, #e3c4f9);
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
 
 /* Footer */
 footer {
